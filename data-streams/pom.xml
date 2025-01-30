@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lyxql</groupId>
+        <artifactId>lyxql-server</artifactId>
+        <version>0.0.1</version>
+    </parent>
+
+    <artifactId>data-streams</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>data-streams-fetcher</module>
+        <module>data-streams-transaction</module>
+        <module>data-streams-core</module>
+        <module>data-streams-writer</module>
+    </modules>
+</project>

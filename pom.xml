@@ -8,8 +8,14 @@
     <artifactId>lyxql-server</artifactId>
     <version>0.0.1</version>
     <packaging>pom</packaging>
+
     <modules>
-        <module>lyxql-server-hardware-disk</module>
+        <module>server-io</module>
+        <module>data-models</module>
+        <module>server-storage</module>
+        <module>data-streams</module>
+        <module>server-core</module>
+        <module>server-clustered</module>
     </modules>
 
     <properties>

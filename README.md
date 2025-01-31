@@ -1,20 +1,16 @@
-<img src="assets/banner.png">
-
----
+<img src="assets/bannerV2.png">
 
 ## Overview
-
-That project is next-generation NoSQL database focused on **speed**, **flexibility**, and **simplicity**. Whether you need a high-performance database for fast read/write operations or a flexible server configuration for in-memory or remote deployment, lyxql-server is the solution for you.
-
-Server combines the best of NoSQL with the power of SQL-like features, making it the ultimate choice for modern applications.
-
----
 
 <div>
 <img src="https://img.shields.io/badge/compiled-JDK--21-red?style=flat" />
 <img src="https://img.shields.io/badge/build-maven-blue?style=flat" />
 <img src="https://img.shields.io/badge/latest--release-0.0.1-green?style=flat" />
 </div>
+
+That project is next-generation NoSQL database focused on **speed**, **flexibility**, and **simplicity**. Whether you need a high-performance database for fast read/write operations or a flexible server configuration for in-memory or remote deployment, lyxql-server is the solution for you.
+
+Server combines the best of NoSQL with the power of SQL-like features, making it the ultimate choice for modern applications.
 
 ## **Key Features 🌟**
 

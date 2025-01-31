@@ -10,9 +10,11 @@ Server combines the best of NoSQL with the power of SQL-like features, making it
 
 ---
 
+<div>
 <img src="https://img.shields.io/badge/compiled-JDK--21-red?style=flat" />
 <img src="https://img.shields.io/badge/build-maven-blue?style=flat" />
 <img src="https://img.shields.io/badge/latest--release-0.0.1-green?style=flat" />
+</div>
 
 ## **Key Features 🌟**
 

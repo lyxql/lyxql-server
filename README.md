@@ -36,23 +36,26 @@ Server combines the best of NoSQL with the power of SQL-like features, making it
 To get started with lyxql-server, follow these simple steps:
 
 1. **Download and Install**  
-   lyxql-server is available for all major Linux distributions. Follow the installation instructions specific to your platform:
+   lyxql-server is available for all major Linux distributions and Windows. Follow the installation instructions specific to your platform:
 
-    - [Debian/Ubuntu](docs/install/debian.md)
-    - [RedHat/CentOS](docs/install/redhat.md)
-    - [Fedora](docs/install/fedora.md)
+   ```bash
+   $ cd /opt
+   $ git clone https://github.com/lyxql/lyxql-server.git
+   ```
 
-2. **Starting the Server**  
+2. **Configure the Server**
+
+   Edit the `config.yml` file to tailor the database server to your needs. Whether you're running it in-memory or on a remote server, all configurations are handled in this file.
+   <br><br>
+
+3. **Build & Starting the Server**  
    Once installed, you can start the server with a simple command:
 
    ```bash
-   java -jar lyxql-server.jar
+   $ cd /opt/lyxql-server
+   $ ./bootstrap
    ```
 
-3. **Configure the Server**
-   
-   Edit the `config.yml` file to tailor the database server to your needs. Whether you're running it in-memory or on a remote server, all configurations are handled in this file.
-   
 # **Advanced Features 🌐**
 * **Aggregation and Grouping**
     
